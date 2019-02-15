@@ -1,0 +1,211 @@
+/* RESET */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100% !important;
+}
+
+img {
+  border: 0;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse !important;
+}
+
+/* CLIENT SPECIFIC STYLES */
+/* Force Outlook to provide a "view in browser" message */
+#outlook a {
+  padding: 0;
+}
+
+.ReadMsgBody {
+  width: 100%;
+}
+
+.ExternalClass {
+  width: 100%;
+  line-height: 100%;
+}
+
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+body, table, td, p, a, li, blockquote {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Remove spacing between tables in Outlook 2007 and up */
+table, td {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+/* Allow smoother rendering of resized image in Internet Explorer */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+body {
+  background-color: #232331;
+}
+
+a {
+  color: #fff;
+}
+
+#body-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* **********************
+
+	Preheader
+
+ ********************** */
+#template-preheader td {
+  padding: 0 0;
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-size: 13px;
+}
+
+#template-preheader td:last-child {
+  text-align: right;
+}
+
+/* **********************
+
+	Main Content
+
+ ********************** */
+#template-content {
+  background-color: #2d2d37;
+}
+
+#template-content-header {
+  text-align: center;
+  position: relative;
+}
+
+#template-content-header td {
+  background-color: #2d2d37;
+  padding: 0 0;
+  font-family: "Ubuntu";
+}
+
+.email-title {
+  height: 196px;
+  padding-top: 18px;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  background-image: url("Group 3.svg");
+  background-repeat: no-repeat;
+  background-size: 226px 196px;
+  font-size: 16px;
+}
+
+.email-title .subheader {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 80px;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.email-title .left {
+  margin-left: 30px;
+}
+
+.email-title .right {
+  vertical-align: middle;
+  width: 270px;
+}
+
+.email-title .blue {
+  color: #009CFF;
+}
+
+/* */
+#template-content-content {
+  width: 90%;
+  max-width: 560px;
+  text-align: left;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0 0;
+}
+
+#template-content-content .btn {
+  padding: 15px 30px;
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 14px;
+  background: #009CFF;
+  border: 2px solid #009CFF;
+  box-sizing: border-box;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#template-content-content .small {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+/* */
+#template-content-footer td {
+  padding: 0 0;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  line-height: 125%;
+  font-size: 15px;
+}
+
+/* **********************
+
+	Footer
+
+ ********************** */
+#template-footer td {
+  font-family: "Ubuntu";
+  color: #fff;
+  font-size: 11px;
+  line-height: 150%;
+  text-align: center;
+  padding: 0 0;
+}
+
+#template-footer p {
+  display: block;
+  margin-bottom: 0;
+}

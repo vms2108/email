@@ -1,0 +1,48 @@
+{% extends "mailchimp.nunjucks" %}
+
+
+{% block email_title %}
+<div class="subheader">
+	<div class="left">
+		<img src="logo.svg"></img>
+	</div>
+	<div class="right">
+		Global <span class="blue"> crypto loans </span> and <span class="blue">deposits</span>
+	</div>
+</div>
+
+{% endblock %}
+
+
+
+
+{% block email_content %} 
+
+<h2>Forgot your password?</h2>
+<p> This email was sent automatically by Bonum Platform in response to your request to recover your password. This is done for your protection; only you, the recipient of this email can take the next step in the password recover process. </p>
+
+<a class="btn">RECOVER PASSWORD</a>
+
+<p class="small"> Or open link:<br>http://pdev.bonum.credit?reset=[MTM,513-9525f4e66a05b2dfdf3c,mail@mail.com]</p>
+
+<hr>
+
+{% endblock %}
+
+
+
+{% block email_footer %} 
+<div class="social">
+	<a class="link"></a>
+	<a class="link"></a>
+	<a class="link"></a>
+	<a class="link"></a>
+	<a class="link"></a>
+	<a class="link"></a>
+	<a class="link"></a>
+	<a class="link"></a>
+	<p class="small">Bonum 2017-2019. All rights reserved</p>
+	<p class="small">Our mailing address is: support-credit@bonumchain.com</p>
+</div>
+{% endblock %}
+

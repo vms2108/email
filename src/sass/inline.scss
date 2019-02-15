@@ -1,0 +1,199 @@
+
+@import 
+	'reset'
+;
+
+$font-stack: 'Ubuntu';
+$theme: #2d2d37;
+$bg-color: #232331;
+
+
+
+body {
+	background-color: $bg-color; 
+}
+
+a {
+	color: #fff;
+}
+
+
+#body-container {
+	width: 100%;
+	max-width: 600px;
+	margin: 20px auto;
+	
+}
+
+
+
+/* **********************
+
+	Preheader
+
+ ********************** */
+
+
+
+#template-preheader {
+
+	td {
+		padding: 0 0;
+		font-family: $font-stack;
+		font-style: italic;
+		font-size: 13px;
+	}
+
+	td:last-child {
+		text-align: right;
+	}
+}
+
+
+
+
+
+/* **********************
+
+	Main Content
+
+ ********************** */
+
+#template-content {
+	background-color: #2d2d37;
+	// box-shadow: 2px 2px 3px rgba(150, 150, 150, 0.2)
+}
+
+
+
+#template-content-header {
+	text-align: center; 
+	position: relative;
+	td {
+		background-color: $theme;
+		padding: 0 0;
+		font-family: $font-stack;
+	}
+}
+
+.email-title {
+	height: 196px;
+	padding-top: 18px;
+	display: flex;
+	padding: 0;
+	color: #fff; 
+	font-size: 24px; 
+	font-weight: 700; 
+	text-decoration: none;
+	font-size: 16px;
+	background-image: url("Group 3.svg");
+	background-repeat: no-repeat;
+	background-size: 226px 196px;
+
+	font-size: 16px;
+	.subheader {
+		display: flex;
+		flex-wrap: wrap;
+		height: 80px;
+		align-items: center;
+	}
+	.left {
+		margin-left: 30px;
+	}
+	.right {
+		vertical-align: middle;
+		width: 270px;
+	}
+	.blue {
+		color: #009CFF;
+	}
+}
+
+.email-content {
+	
+}
+	
+
+
+
+/* */
+
+#template-content-content {
+	width: 90%;
+	max-width: 560px;
+	text-align: left;
+	font-family: $font-stack;
+	font-weight: 400;
+	font-size: 16px; 
+	line-height:150%;
+	margin: 0 0;
+	// background: #606060;
+	.btn {
+		// display: flex;
+		padding: 15px 30px;
+		margin-bottom: 32px;
+		font-weight: bold;
+		font-size: 14px;
+		background: #009CFF;
+		border: 2px solid #009CFF;
+		box-sizing: border-box;
+		border-radius: 30px;
+		cursor: pointer;
+	}
+	.small {
+		margin-top: 40px;
+		margin-bottom: 60px;
+		font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 18px;
+		font-size: 12px;
+	}
+}
+
+
+/* */
+
+#template-content-footer {
+	
+	tr {
+		// background-color: rgb(240, 240, 240);
+	}
+
+	td {
+		padding: 0 0;
+		font-family: $font-stack;
+		font-weight: 400;
+		line-height:125%;
+		font-size: 15px; 
+	}
+}
+
+
+
+
+/* **********************
+
+	Footer
+
+ ********************** */
+
+#template-footer {
+
+	td {
+		font-family: $font-stack;
+		color: #fff;  
+		font-size: 11px; 
+		line-height: 150%; 
+		text-align:center;
+		padding: 0 0;
+	}
+
+	p {	
+		display: block;
+		margin-bottom: 0;
+	}	
+}
+
+
+
