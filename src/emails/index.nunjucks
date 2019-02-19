@@ -4,7 +4,7 @@
 {% block email_title %}
 <div class="subheader">
 	<div class="left">
-		<img src="logo.svg"></img>
+		<img src="https://i.ibb.co/H20jSHZ/logo-2.png" width='252' height='50'>
 	</div>
 	<div class="right">
 		Global <span class="blue"> crypto loans </span> and <span class="blue">deposits</span>
@@ -18,12 +18,12 @@
 
 {% block email_content %} 
 
-<h2>Forgot your password?</h2>
-<p> This email was sent automatically by Bonum Platform in response to your request to recover your password. This is done for your protection; only you, the recipient of this email can take the next step in the password recover process. </p>
+<h2 class="title">Forgot your password?</h2>
+<p class="info"> This email was sent automatically by Bonum Platform in response to your request to recover your password. This is done for your protection; only you, the recipient of this email can take the next step in the password recover process. </p>
 
 <a class="btn">RECOVER PASSWORD</a>
 
-<p class="small"> Or open link:<br>http://pdev.bonum.credit?reset=[MTM,513-9525f4e66a05b2dfdf3c,mail@mail.com]</p>
+<p class="small"> Or open link:<br><span>http://pdev.bonum.credit?reset=[MTM,513-9525f4e66a05b2dfdf3c,mail@mail.com]</span></p>
 
 <hr>
 
@@ -32,17 +32,34 @@
 
 
 {% block email_footer %} 
-<div class="social">
-	<a class="link"></a>
-	<a class="link"></a>
-	<a class="link"></a>
-	<a class="link"></a>
-	<a class="link"></a>
-	<a class="link"></a>
-	<a class="link"></a>
-	<a class="link"></a>
-	<p class="small">Bonum 2017-2019. All rights reserved</p>
-	<p class="small">Our mailing address is: support-credit@bonumchain.com</p>
-</div>
+	<div class="footer__socials socials">
+        <a href="https://twitter.com/bonumchain" target="_blank" class="socials__link">
+            <img src="https://i.ibb.co/p0tDgFX/twitter-logo-silhouette.png" />
+        </a>
+        <a href="https://www.facebook.com/bonumico/" target="_blank" class="socials__link">
+            <img src="https://i.ibb.co/Ld7JxFs/facebook-logo.png" />
+        </a>
+        <a href="https://t.me/Bonumchain" target="_blank" class="socials__link">
+            <img src="https://i.ibb.co/JRPNxMh/telegram.png" />
+        </a>
+        <a href="https://bitcointalk.org/index.php?topic=2415508" target="_blank" class="socials__link">
+            <img src="https://i.ibb.co/NmhCwrZ/bitcoin.png" />
+        </a>
+        <a href="https://medium.com/@bonumchain" target="_blank" class="socials__link">
+            <img src="https://i.ibb.co/0qLbDBH/bonumchain.png" />
+        </a>
+        <a href="https://github.com/Bonumchain" target="_blank" class="socials__link">
+            <img src="https://i.ibb.co/d74VXm4/github.png" />
+        </a>
+        <a href="http://www.linkedin.com/company/bonum-credit" target="_blank" class="socials__link">
+            <img src="https://i.ibb.co/xLgp8FX/linkedin-logo.png" />
+        </a>
+        <a href="https://golos.io/@bonum" target="_blank" class="socials__link">
+            <img src="https://i.ibb.co/YynB7kj/golos.png">
+        </a>
+    </div>
+	<p>Bonum 2017-2019. All rights reserved</p>
+	<p>Our mailing address is: <span>support-credit@bonumchain.com</span></p>
+
 {% endblock %}
 
