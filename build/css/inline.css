@@ -72,27 +72,6 @@ a {
   margin: 20px auto;
 }
 
-/* **********************
-
-	Preheader
-
- ********************** */
-#template-preheader td {
-  padding: 0 0;
-  font-family: "Ubuntu";
-  font-style: italic;
-  font-size: 13px;
-}
-
-#template-preheader td:last-child {
-  text-align: right;
-}
-
-/* **********************
-
-	Main Content
-
- ********************** */
 #template-content {
   background-color: #2d2d37;
 }
@@ -153,7 +132,6 @@ a {
   color: #009CFF;
 }
 
-/* */
 #template-content-content {
   width: 90%;
   max-width: 560px;
@@ -204,11 +182,10 @@ a {
   margin-bottom: 35px;
 }
 
-#template-content-content span {
+#template-content-content .link {
   color: #fff !important;
 }
 
-/* */
 #template-content-footer {
   margin-bottom: 50px;
 }
@@ -309,25 +286,6 @@ a {
   height: auto;
 }
 
-#template-content-footer span {
+#template-content-footer .link {
   color: #CFCFCF !important;
-}
-
-/* **********************
-
-	Footer
-
- ********************** */
-#template-footer td {
-  font-family: "Ubuntu";
-  color: #fff;
-  font-size: 11px;
-  line-height: 150%;
-  text-align: center;
-  padding: 0 0;
-}
-
-#template-footer p {
-  display: block;
-  margin-bottom: 0;
 }

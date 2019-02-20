@@ -23,7 +23,7 @@
 
 <a class="btn">RECOVER PASSWORD</a>
 
-<p class="small"> Or open link:<br><span>http://pdev.bonum.credit?reset=[MTM,513-9525f4e66a05b2dfdf3c,mail@mail.com]</span></p>
+<p class="small"> Or open link:<br><a class="link" href="http://pdev.bonum.credit?reset=[MTM,513-9525f4e66a05b2dfdf3c,mail@mail.com]">http://pdev.bonum.credit?reset=[MTM,513-9525f4e66a05b2dfdf3c,mail@mail.com]</a></p>
 
 <hr>
 
@@ -45,7 +45,7 @@
         <a href="https://bitcointalk.org/index.php?topic=2415508" target="_blank" class="socials__link">
             <img src="https://i.ibb.co/NmhCwrZ/bitcoin.png" />
         </a>
-        <a href="https://medium.com/@bonumchain" target="_blank" class="socials__link">
+        <a href="https://medium.com/bonumchain" target="_blank" class="socials__link">
             <img src="https://i.ibb.co/0qLbDBH/bonumchain.png" />
         </a>
         <a href="https://github.com/Bonumchain" target="_blank" class="socials__link">
@@ -59,7 +59,7 @@
         </a>
     </div>
 	<p>Bonum 2017-2019. All rights reserved</p>
-	<p>Our mailing address is: <span>support-credit@bonumchain.com</span></p>
+	<p>Our mailing address is: <a class="link" href="support-credit@bonumchain.com">support-credit@bonumchain.com</a></p>
 
 {% endblock %}
 
